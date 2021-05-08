@@ -7,7 +7,7 @@ function Buttons() {
   return (
     <div className="button__container">
       <ForgetButton />
-      <EntryButton text="Войти" />
+      <EntryButton before="Войти" after="Viyti" />
     </div>
   );
 }
