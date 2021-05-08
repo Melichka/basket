@@ -1,3 +1,5 @@
+import React from "react";
+import Buttons from "./components/Buttons/Buttons";
 import "./App.css";
 
 function App() {
@@ -16,14 +18,7 @@ function App() {
             required
           />
         </div>
-        <div className="button__container">
-          <a className="button__forget" href="#">
-            Забыли пароль?
-          </a>
-          <button className="button__entry">
-            <span className="button__entry-text">Войти</span>
-          </button>
-        </div>
+        <Buttons />
       </div>
     </div>
   );
