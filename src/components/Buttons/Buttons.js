@@ -6,8 +6,8 @@ import "./Buttons.styles.css";
 function Buttons() {
   return (
     <div className="button__container">
-      <ForgetButton></ForgetButton>
-      <EntryButton></EntryButton>
+      <ForgetButton />
+      <EntryButton text="Войти" />
     </div>
   );
 }

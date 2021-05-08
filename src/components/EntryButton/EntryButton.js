@@ -1,10 +1,10 @@
 import React from "react";
 import "./EntryButton.styles.css";
 
-function EntryButton() {
+function EntryButton(props) {
   return (
     <button className="button__entry">
-      <span className="button__entry-text">Войти</span>
+      <span className="button__entry-text">{props.text}</span>
     </button>
   );
 }
