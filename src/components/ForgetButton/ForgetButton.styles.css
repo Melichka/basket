@@ -1,8 +1,8 @@
 .button__forget {
   font-size: 6px;
   text-decoration: underline;
-  color: #6a5e5e;
+  color: #454140;
   display: flex;
   align-items: center;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
